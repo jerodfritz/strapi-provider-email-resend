@@ -1,5 +1,5 @@
 # strapi-provider-email-resend
-A email provider for Strapi that uses Resends api
+A email provider for Strapi for Resend [https://resend.com/]
 
 ## Installation
 In the root directory of your project, run:
