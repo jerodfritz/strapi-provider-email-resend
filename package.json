@@ -1,0 +1,40 @@
+{
+  "name": "strapi-provider-email-resend",
+  "version": "1.0.0",
+  "description": "Strapi Resend provider",
+  "main": "./dist",
+  "directories": {
+    "lib": "./dist"
+  },
+  "scripts": {
+    "postinstall": "tsc --preserveSymlinks",
+    "develop": "tsc --preserveSymlinks -w ",
+    "dev": "npm run develop",
+    "start": "npm run --prefix ../../../ dev",
+    "build": "tsc --preserveSymlinks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerodfritz/strapi-provider-email-resend.git"
+  },
+  "keywords": [
+    "strapi",
+    "email",
+    "provider",
+    "resend"
+  ],
+  "dependencies": {
+    "lodash": "4.17.21",
+    "resend": "0.10.0"
+  },
+  "author": "Jerod Fritz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerodfritz/strapi-provider-email-resend/issues"
+  },
+  "homepage": "https://github.com/jerodfritz/strapi-provider-email-resend#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
+}
