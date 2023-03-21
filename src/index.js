@@ -8,11 +8,11 @@ module.exports = {
   provider: 'resend',
   name: 'Resend',
 
-  init(providerOptions: any = {}, settings: any = {}) {
+  init: function (providerOptions, settings) {
     const resend = new Resend(providerOptions.apiKey);
 
     return {
-      send(options) {
+      send: function (options) {
         const {
           from,
           to,
