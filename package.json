@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-resend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Strapi Resend provider",
   "main": "./dist",
   "directories": {
