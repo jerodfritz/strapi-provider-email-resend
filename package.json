@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-resend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Strapi Resend provider",
   "main": "./dist",
   "directories": {
@@ -24,7 +24,6 @@
     "resend"
   ],
   "dependencies": {
-    "lodash": "4.17.21",
     "resend": "0.11.1"
   },
   "author": "Jerod Fritz",
@@ -34,7 +33,7 @@
   },
   "homepage": "https://github.com/jerodfritz/strapi-provider-email-resend#readme",
   "devDependencies": {
-    "@types/node": "^18.15.3",
-    "typescript": "^4.9.5"
+    "@types/node": "^18.15.5",
+    "typescript": "^5.0.2"
   }
 }
